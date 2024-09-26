@@ -6,7 +6,7 @@ resource "aws_subnet" "database_subnet_1a" {
 
   tags = {
     Name = format("%s-database-subnet-1a", var.project_name)
-  }  
+  }
 }
 
 resource "aws_subnet" "database_subnet_1b" {
@@ -17,7 +17,7 @@ resource "aws_subnet" "database_subnet_1b" {
 
   tags = {
     Name = format("%s-database-subnet-1b", var.project_name)
-  }   
+  }
 }
 
 resource "aws_subnet" "database_subnet_1c" {
@@ -28,5 +28,5 @@ resource "aws_subnet" "database_subnet_1c" {
 
   tags = {
     Name = format("%s-database-subnet-1c", var.project_name)
-  }  
+  }
 }

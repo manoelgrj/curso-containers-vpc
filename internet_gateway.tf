@@ -3,5 +3,5 @@ resource "aws_internet_gateway" "gw" {
 
   tags = {
     Name = format("%s-gw", var.project_name)
-  }     
+  }
 }
